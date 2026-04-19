@@ -1,0 +1,19 @@
+apiVersion: 1
+
+datasources:
+  - name: TestData DB
+    type: testdata
+    uid: trlxrdZVk
+    isDefault: true
+
+  - name: Infinity
+    type: yesoreyeram-infinity-datasource
+    uid: ffjh2t3gic3r4f
+    access: proxy
+    url: http://16.171.8.238:8016
+    isDefault: false
+    jsonData:
+      auth_method: none
+      timeoutInSeconds: 60
+    version: 1
+    editable: true
